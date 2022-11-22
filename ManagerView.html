@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager View</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href = "./resources/css/ManagerView.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+    
+</head>
+<body onload="handleOnLoad()">
+  
+        <img src="resources/images/LogoWhite.png"  width=15% id="">
+        <h1 id="login-header">Manager View</h1>
+
+
+
+
+
+                <div>
+                  <!-- Table structure here -->
+                  <table class="table table-dark" id="our-table">
+                      <thead>
+                          <tr>
+                              <th>EMP ID</th>
+                              <th>Name</th>
+                              <th>Clock In</th>
+                              <th>Clock Out</th>
+                              <th>Time Spent</th>
+                              <th>Description</th>
+                              <th>Message</th>
+                          </tr>
+                      </thead>
+                      <tbody id="table-body">
+              
+                      </tbody>
+                  </table>
+              </div>
+              
+              <div class="container ">
+                  <div id="pagination-wrapper"></div>
+              </div>
+
+        
+<!--       
+        <div>
+          <form onsubmit="return false;" method="post">
+              <h4 style="color:#A41720;"><u>Fire Worker</u></h4>
+              <label for="Id">EmployeeID:</label>
+              <input type="text" name="delete" id="delete"/> 
+              <input type="submit" value="Delete" onclick="deleteWorker()">
+          </form>
+      </div>
+      <div>
+        <form>
+          <br>
+          <h4 style="color:#A41720;"><u>Message Director</u></h4>
+
+          <label for="textareainput">Message:</label>
+      <br>
+  <textarea id="textareainput" name="textareainput" rows="2.5" cols="40" value="'"></textarea><br><br>
+        </form>
+      </div> -->
+
+
+
+
+
+
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn">
+        <i class="fa fa-bars" style="font-size:24px"></i>
+    </label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="./AccountView.html">Account</a></li>
+        <li><a href="./EditEmployee.html">Edit</a></li>
+        <li><a href="./Login.html">Sign Out</a></li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./resources/scripts/ManagerView.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script type = "text/javascript" src = "./resources/scripts/index.js" ></script>
+    <script type = "text/javascript" src = "./resources/scripts/ManagerView.js" ></script>
+
+</body>
+</html>

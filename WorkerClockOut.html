@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Out</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href = "./resources/css/index.css">
+    <link rel="stylesheet" href = "./resources/css/WorkerClockOut.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> -->
+   
+</head>
+<body>
+
+    <main id="main-holder">
+        <img src="resources/images/LogoWhite.png" width=35% id="">
+
+        <form id="logout-form">
+            <label for="jopTypes">Select type of work:</label>
+                <select name="jobTypes" id="jobTypes">
+                    <option value="Stocking">Stocking</option>
+                    <option value="Cleaning">Cleaning</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="Food Prep">Food Prep</option>
+                    <option value="Register">Register</option>
+                    <option value="Select" selected>Select</option>
+                </select>
+            <br>
+                <label for="textareainput">Additional comments:</label>
+            <br>
+        <textarea id="textareainput" name="textareainput" rows="2.5" cols="40" value="'"></textarea><br><br>
+          <input type="submit" value="Clock Out" id="ClockOutTime">
+        </form>
+
+    <main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <input type="checkbox" id="active">
+    <label for="active" class="menu-btn">
+        <i class="fa fa-bars" style="font-size:24px"></i>
+    </label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="./AccountView.html">Account</a></li>
+            <li><a href="./WorkerHistory.html">History</a></li>
+            <li><a href="./Login.html">Sign Out</a></li>
+        </ul>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type = "text/javascript" src = "./resources/scripts/index.js" ></script>
+    <script type = "text/javascript" src = "./resources/scripts/WorkerClockOut.js" ></script>
+</body>
+</html>
