@@ -69,7 +69,6 @@ function CheckEntry()
     }
     else if(!isBeforeToday(createEmpForm.bday.value))
     {
-        window.alert(selectMenu.options[selectMenu.selectedIndex].text)
         createmessage.innerHTML = "Birthday must be before today"
         createmessage.style.opacity = 1
     }
